@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nuclear-footprints"
+version = "0.1.0"
+description = "Nuclear footprints project"
+readme = "README.md"
+requires-python = ">=3.10"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+py-modules = ["const"]

@@ -1,8 +1,8 @@
 # Nuclear Footprints: Humand & Environmental Legacy
 
-Authors: [Author n. 1](https://github.com/giovannipro), [Author n. 2](https://github.com/giovannipro), [Author n. 3](https://github.com/giovannipro)
+Authors: [Arsenii Bryndin](https://github.com/slymachenko), [Federico Panceri](https://github.com/FedePance), [Giorgio De Siena](https://github.com/giorgiodesiena)
 
-[Project title](https://dataviz-supsi.github.io/dataviz-template/)
+[Project page](https://dataviz-supsi.github.io/dataviz-template/)
 
 ## Abstract
 
@@ -16,7 +16,9 @@ Dolor sit amet consectetur adipiscing elit duis tristique. Sociis natoque penati
 
 Facilisis magna etiam tempor orci eu. Felis donec et odio pellentesque diam volutpat commodo. Dis parturient montes nascetur ridiculus mus mauris vitae. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Accumsan sit amet nulla facilisi. Ultricies leo integer malesuada nunc vel risus. Est lorem ipsum dolor sit. Ultrices neque ornare aenean euismod elementum nisi. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida. Placerat duis ultricies lacus sed turpis tincidunt id aliquet. Arcu dictum varius duis at consectetur lorem donec massa sapien. Pellentesque habitant morbi tristique senectus. Turpis massa sed elementum tempus egestas sed sed risus pretium. Eros donec ac odio tempor orci. Pellentesque id nibh tortor id aliquet lectus. Risus feugiat in ante metus dictum at. Quam pellentesque nec nam aliquam sem et tortor consequat id. Feugiat nibh sed pulvinar proin gravida hendrerit lectus a. Sit amet dictum sit amet justo donec enim.
 
-[Main datasource](https://www.kaggle.com/datasets/zafarali27/netflix-movies-and-tv-shows)
+- [Chornobyl Datasets](https://catalogue.ceh.ac.uk/documents/782ec845-2135-4698-8881-b38823e533bf)
+- [Power Plants Datasets](https://globalenergymonitor.org/projects/global-nuclear-power-tracker/)
+- [Nuclear Weapons Datasets](https://ourworldindata.org/nuclear-weapons)
 
 ## Data pre-processing
 
