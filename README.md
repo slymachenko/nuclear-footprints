@@ -19,6 +19,7 @@ Facilisis magna etiam tempor orci eu. Felis donec et odio pellentesque diam volu
 - [Chornobyl Datasets](https://catalogue.ceh.ac.uk/documents/782ec845-2135-4698-8881-b38823e533bf)
 - [Power Plants Datasets](https://globalenergymonitor.org/projects/global-nuclear-power-tracker/)
 - [Nuclear Weapons Datasets](https://ourworldindata.org/nuclear-weapons)
+- [Nuclear Explosions Datasets](https://www.kaggle.com/datasets/utkarshx27/nuclear-explosions-data)
 
 ## Data pre-processing
 
