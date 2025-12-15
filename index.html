@@ -3,9 +3,9 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Title | Data visualization course</title>
-	<meta name="description" content="Project description">
-	<meta name="author" content="Authors' name and ssurname">
+	<title>Nuclear Footprints | Data visualization course</title>
+	<meta name="description" content="A data-driven story about nuclear detonations, arsenals, safety, Chernobyl, and global nuclear power infrastructure.">
+	<meta name="author" content="Author n. 1, Author n. 2, Author n. 3">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- allow webpage to be run in full-screen mode -->
 	<meta name="mobile-web-app-capable" content="yes">
@@ -42,182 +42,335 @@
 	<main>
 		<header>
 			<h1>
-				This is the project title
+				Nuclear Footprints
 			</h1>
-			<h2>This is the project subtitle</h2>
+			<h2>From detonations to reactors: the legacy we still live with</h2>
 			<h3>Author n. 1, Author n. 2, Author n. 3</h3>
+			<nav class="toc" aria-label="Table of contents">
+				<a href="#part-1">Detonations & proliferation</a>
+				<a href="#part-2">Arsenals & safety</a>
+				<a href="#part-3">Chernobyl</a>
+				<a href="#part-4">Civilian nuclear power</a>
+			</nav>
 		</header>
-		<section class="no_margin">
-			<a name="highlight"></a>
-			<figure>
-				<object type="image/svg+xml" data="assets/dataviz/viz_01.svg" id="dataviz_01"></object>
-				<figcaption>Data visualization caption</figcaption>
-			</figure>
-			<div class="download download_big">
-				<div>
-					<a href="assets/dataviz/protocols/01" title="Download visualization protocol">
-						Read the visualization protocol
-					</a>
-				</div>
-				<div>
-					<a href="assets/dataviz/dataset+metadata.zip" title="Download dataset">
-						↓ Download the dataset (1MB)
-					</a>
+		<section class="no_margin hero">
+			<a id="highlight"></a>
+			<div class="hero-card">
+				<p class="hero-kicker">A data story in four acts</p>
+				<p class="hero-lede">
+					Detonations reshaped geopolitics. Arsenals peaked. Safety frameworks emerged.
+					One accident left an invisible footprint. And a global energy infrastructure persists.
+				</p>
+				<div class="hero-actions">
+					<a class="hero-action" href="#part-1">Start reading</a>
+					<details class="download-menu">
+						<summary class="hero-action hero-action--muted" title="Download datasets">Download datasets</summary>
+						<div class="download-menu__panel" role="menu" aria-label="Datasets">
+							<p class="download-menu__title">Datasets (placeholder)</p>
+							<a class="download-menu__item" href="#" aria-disabled="true" data-download="echoes-of-detonations">Echoes of Detonations</a>
+							<a class="download-menu__item" href="#" aria-disabled="true" data-download="cold-war-legacy">Cold War Legacy</a>
+							<a class="download-menu__item" href="#" aria-disabled="true" data-download="nuclear-explosions">Nuclear Explosions</a>
+							<a class="download-menu__item" href="#" aria-disabled="true" data-download="nuclear-proliferation">Nuclear Proliferation</a>
+							<a class="download-menu__item" href="#" aria-disabled="true" data-download="rise-and-fall-of-nuclear-arsenals">Rise and Fall of Nuclear Arsenals</a>
+							<a class="download-menu__item" href="#" aria-disabled="true" data-download="global_nuclear_arsenals_today">Global Nuclear Arsenals Today</a>
+							<a class="download-menu__item" href="#" aria-disabled="true" data-download="the_rise_of_global_nuclear_safety">The Rise of Global Nuclear Safety</a>
+							<a class="download-menu__item" href="#" aria-disabled="true" data-download="the-invisible-footprint-of-chernobyl">The Invisible Footprint of Chernobyl</a>
+							<a class="download-menu__item" href="#" aria-disabled="true" data-download="the-invisible-footprint">The Invisible Footprint</a>
+							<a class="download-menu__item" href="#" aria-disabled="true" data-download="no-safe-distance-after-chernobyl">No Safe Distance After Chernobyl</a>
+							<a class="download-menu__item" href="#" aria-disabled="true" data-download="population-change-after-chernobyl">Population Change After Chernobyl</a>
+							<a class="download-menu__item" href="#" aria-disabled="true" data-download="global-nuclear-power-tracker">Global Nuclear Power Tracker</a>
+							<a class="download-menu__item" href="#" aria-disabled="true" data-download="global-nuclear-reactor-status">Global Nuclear Reactor Status</a>
+						</div>
+					</details>
 				</div>
 			</div>
 		</section>
 		<article>
 			<section id="abstract">
 				<p>
-					Donec fringilla dignissim dolor, a volutpat leo porta eget. Sed ultrices suscipit est non semper.
-					Sed at rutrum risus, eget imperdiet erat. Nulla blandit tincidunt nisl, sed euismod ligula
-					consectetur ut. Suspendisse ornare eu lacus eget tempus. Interdum et malesuada fames ac ante ipsum
-					primis in faucibus. Phasellus ac consectetur purus. Aenean tortor massa, rutrum sed aliquet at,
-					cursus a massa. Nam interdum ut velit at porta. Proin ullamcorper turpis in nulla finibus, a auctor
-					felis congue. Curabitur eu blandit diam. Morbi et mi tellus. Donec rhoncus odio quis placerat
-					auctor. Sed metus arcu, tincidunt euismod tristique eget, lacinia nec neque.
+					This datastory explores the long-term footprint of nuclear technology across four dimensions:
+					(1) the global geography of detonations and the diffusion of nuclear weapons,
+					(2) how arsenals evolved and how international safety frameworks emerged,
+					(3) the environmental and demographic consequences of Chernobyl,
+					and (4) today’s civilian nuclear infrastructure.
 				</p>
 			</section>
-			<section>
-				<h4>
-					Paragraph title
-				</h4>
-				<p>
-					Donec fringilla dignissim dolor, a volutpat leo porta eget. Sed ultrices suscipit est non semper.
-					Sed at rutrum risus, eget imperdiet erat. Nulla blandit tincidunt nisl, sed euismod ligula
-					consectetur ut. Suspendisse ornare eu lacus eget tempus. Interdum et malesuada fames ac ante ipsum
-					primis in faucibus. Phasellus ac consectetur purus. Aenean tortor massa, rutrum sed aliquet at,
-					cursus a massa. Nam interdum ut velit at porta. Proin ullamcorper turpis in nulla finibus, a auctor
-					felis congue. Curabitur eu blandit diam. Morbi et mi tellus. Donec rhoncus odio quis placerat
-					auctor. Sed metus arcu, tincidunt euismod tristique eget, lacinia nec neque.
-				</p>
-				<p>
-					Aenean commodo vehicula massa, id pellentesque sapien volutpat id. Nunc leo turpis, condimentum non
-					nisl id, rutrum ultricies ex. In purus risus, accumsan in dictum at, mattis malesuada mi. Aliquam
-					pulvinar sagittis auctor. In ut lorem mollis, interdum massa dictum, posuere libero. Aliquam at
-					feugiat diam, in dapibus lacus. Maecenas porta efficitur elit quis ullamcorper. Quisque blandit
-					turpis ut ante venenatis mattis. Proin tincidunt nunc vitae ante viverra, vitae vehicula tortor
-					consectetur. Vivamus porttitor rhoncus ante ac congue. Pellentesque nec ipsum nisl. Integer sodales
-					dignissim arcu, ac sagittis lectus malesuada a. Nunc imperdiet nisi non vulputate pulvinar. Donec
-					interdum condimentum nunc eu ultrices.
-				</p>
-
-				<div>
-					<button id="button-id1" style="opacity: 0.4">DV 1</button>
-					<button id="button-id2">DV 2</button>
+			<section class="story-section" id="part-1">
+				<div class="story-head">
+					<h4>Part 1 — Detonations & proliferation</h4>
+					<p class="lede">
+						The first footprint is historical and geographic: when tests accelerated, where detonations happened,
+						and how the journey from “considering” to “possessing” became (almost) irreversible.
+					</p>
 				</div>
 
-				<figure class="figure">
-					<object type="text/html" data="assets/pages/visualizations/rise-and-fall-of-nuclear-arsenals.html"
-						width="800px" height="400px">
-						<p>Your browser does not support embedded content.</p>
-					</object>
-					<figcaption id="dv-caption">The Rhythm of Food, by Moritz Stefaner</figcaption>
-				</figure>
-
-
-				<div class="download download_small">
-					<div>
-						<a href="assets/dataviz/protocols/02" title="Download visualization protocol">
-							Read the visualization protocol
-						</a>
+				<div class="story-grid">
+					<div class="story-copy">
+						<h5>How fast did the world detonate?</h5>
+						<p>
+							The Cold War wasn’t just a political era: it was a rhythm of tests. Use the buttons to compare
+							the timeline of detonations with the cumulative Cold War legacy.
+						</p>
 					</div>
-					<div>
-						<a href="assets/dataviz/dataset+metadata.zip" title="Download dataset">
-							↓ Download the dataset (1MB)
-						</a>
+					<div class="story-viz">
+						<div class="viz-switcher" data-default="assets/pages/visualizations/echoes-of-detonations.html">
+							<div class="viz-toolbar">
+								<div class="viz-tabs" role="tablist" aria-label="Detonations / Cold War legacy">
+									<button class="viz-tab is-active" type="button"
+										data-src="assets/pages/visualizations/echoes-of-detonations.html"
+										data-protocol="assets/pages/protocols/protocol-echoes-of-detonations.html"
+										data-dataset="echoes-of-detonations"
+										data-caption="Echoes of detonations over time: when testing accelerated and when it slowed down.">
+										Timeline</button>
+									<button class="viz-tab" type="button"
+										data-src="assets/pages/visualizations/cold-war-legacy.html"
+										data-protocol="assets/pages/protocols/protocol-cold-war-legacy.html"
+										data-dataset="cold-war-legacy"
+										data-caption="The Cold War legacy: how the USSR/Russia and the USA dominate the historical record.">
+										Legacy</button>
+								</div>
+								<div class="viz-actions">
+									<a class="viz-action viz-protocol" href="assets/pages/protocols/protocol-echoes-of-detonations.html">Protocol</a>
+									<a class="viz-action viz-download" href="#" aria-disabled="true" data-dataset="echoes-of-detonations">Download dataset</a>
+								</div>
+							</div>
+							<iframe class="viz-iframe" src="assets/pages/visualizations/echoes-of-detonations.html" title="Detonations / Cold War legacy" loading="lazy"></iframe>
+							<p class="viz-caption">Echoes of detonations over time: when testing accelerated and when it slowed down.</p>
+						</div>
 					</div>
 				</div>
-			</section>
-			<section>
-				<h4>
-					Paragraph title
-				</h4>
-				<p>
-					Donec fringilla dignissim dolor, a volutpat leo porta eget. Sed ultrices suscipit est non semper.
-					Sed at rutrum risus, eget imperdiet erat. Nulla blandit tincidunt nisl, sed euismod ligula
-					consectetur ut. Suspendisse ornare eu lacus eget tempus. Interdum et malesuada fames ac ante ipsum
-					primis in faucibus. Phasellus ac consectetur purus. Aenean tortor massa, rutrum sed aliquet at,
-					cursus a massa. Nam interdum ut velit at porta. Proin ullamcorper turpis in nulla finibus, a auctor
-					felis congue. Curabitur eu blandit diam. Morbi et mi tellus. Donec rhoncus odio quis placerat
-					auctor. Sed metus arcu, tincidunt euismod tristique eget, lacinia nec neque.
-				</p>
-				<div>
-					<div class='tableauPlaceholder' id='viz1764075904211' style='position: relative'><noscript><a
-								href='#'><img alt='Dashboard 1 '
-									src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;US&#47;US-superstore_17320224289620&#47;Dashboard1&#47;1_rss.png'
-									style='border: none' /></a></noscript><object class='tableauViz'
-							style='display:none;'>
-							<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-							<param name='embed_code_version' value='3' />
-							<param name='site_root' value='' />
-							<param name='name' value='US-superstore_17320224289620&#47;Dashboard1' />
-							<param name='tabs' value='no' />
-							<param name='toolbar' value='yes' />
-							<param name='static_image'
-								value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;US&#47;US-superstore_17320224289620&#47;Dashboard1&#47;1.png' />
-							<param name='animate_transition' value='yes' />
-							<param name='display_static_image' value='yes' />
-							<param name='display_spinner' value='yes' />
-							<param name='display_overlay' value='yes' />
-							<param name='display_count' value='yes' />
-							<param name='language' value='en-US' />
-							<param name='filter' value='publish=yes' />
-						</object></div>
-					<script
-						type='text/javascript'>                    var divElement = document.getElementById('viz1764075904211'); var vizElement = divElement.getElementsByTagName('object')[0]; if (divElement.offsetWidth > 800) { vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; } else if (divElement.offsetWidth > 500) { vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; } else { vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 1.77) + 'px'; } var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-				</div>
-				<div class="download download_small">
-					<div>
-						<a href="assets/dataviz/protocols/03" title="Download visualization protocol">
-							Read the visualization protocol
-						</a>
+
+				<div class="story-grid">
+					<div class="story-copy">
+						<h5>Where did they happen?</h5>
+						<p>
+							A global map makes the scale tangible. Clusters reveal testing grounds, politics, and geography.
+						</p>
 					</div>
-					<div>
-						<a href="assets/dataviz/dataset+metadata.zip" title="Download dataset">
-							↓ Download the dataset (1MB)
-						</a>
+					<div class="story-viz">
+						<figure class="viz-card">
+							<div class="viz-single-actions">
+								<a class="viz-action viz-protocol" href="assets/pages/protocols/protocol-nuclear-explosions.html">Protocol</a>
+								<a class="viz-action viz-download" href="#" aria-disabled="true" data-dataset="nuclear-explosions">Download dataset</a>
+							</div>
+							<iframe class="viz-iframe viz-tall" src="assets/pages/visualizations/nuclear-explosions.html" title="Nuclear explosions map" loading="lazy"></iframe>
+							<figcaption>Global nuclear explosions: geography of tests and their magnitudes (includes manually added NK tests).</figcaption>
+						</figure>
+					</div>
+				</div>
+
+				<div class="story-grid">
+					<div class="story-copy">
+						<h5>How does a country cross the nuclear threshold?</h5>
+						<p>
+							This flow shows the pathway from ambition to capability. Many countries considered; far fewer possessed.
+						</p>
+					</div>
+					<div class="story-viz">
+						<figure class="viz-card">
+							<div class="viz-single-actions">
+								<a class="viz-action viz-protocol" href="assets/pages/protocols/protocol-nuclear-proliferation.html">Protocol</a>
+								<a class="viz-action viz-download" href="#" aria-disabled="true" data-dataset="nuclear-proliferation">Download dataset</a>
+							</div>
+							<iframe class="viz-iframe viz-tall" src="assets/pages/visualizations/nuclear-proliferation.html" title="Nuclear proliferation Sankey" loading="lazy"></iframe>
+							<figcaption>Nuclear proliferation as a one-way journey: considering → pursuing → possessing.</figcaption>
+						</figure>
 					</div>
 				</div>
 			</section>
-			<section>
-				<h4>
-					Paragraph title
-				</h4>
-				<p>
-					Aenean commodo vehicula massa, id pellentesque sapien volutpat id. Nunc leo turpis, condimentum non
-					nisl id, rutrum ultricies ex. In purus risus, accumsan in dictum at, mattis malesuada mi. Aliquam
-					pulvinar sagittis auctor. In ut lorem mollis, interdum massa dictum, posuere libero. Aliquam at
-					feugiat diam, in dapibus lacus. Maecenas porta efficitur elit quis ullamcorper. Quisque blandit
-					turpis ut ante venenatis mattis. Proin tincidunt nunc vitae ante viverra, vitae vehicula tortor
-					consectetur. Vivamus porttitor rhoncus ante ac congue. Pellentesque nec ipsum nisl. Integer sodales
-					dignissim arcu, ac sagittis lectus malesuada a. Nunc imperdiet nisi non vulputate pulvinar. Donec
-					interdum condimentum nunc eu ultrices.
-				</p>
-				<p>
-					Nam suscipit viverra libero, et accumsan ipsum dictum vitae. Quisque nec felis ac quam faucibus
-					accumsan. Vestibulum pharetra, augue at interdum euismod, ligula nibh gravida sem, at pretium dolor
-					lacus ut augue. Donec lobortis, enim consectetur finibus facilisis, justo felis malesuada nunc, at
-					convallis justo est eget libero. Suspendisse potenti. Donec id lobortis lectus. Sed felis ante,
-					convallis in orci eu, commodo elementum velit. Donec accumsan elit nisl, non ornare orci euismod ut.
-					Morbi ipsum ligula, vehicula eu magna auctor, dapibus laoreet justo. Donec rhoncus mi sed interdum
-					tincidunt. Mauris pellentesque efficitur nisl non hendrerit.
-				</p>
-				<div class="flourish-embed flourish-hierarchy" data-src="visualisation/26122541">
-					<script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img
-							src="https://public.flourish.studio/visualisation/26122541/thumbnail" width="100%"
-							alt="hierarchy visualization" /></noscript>
+
+			<section class="story-section" id="part-2">
+				<div class="story-head">
+					<h4>Part 2 — Arsenals & safety</h4>
+					<p class="lede">
+						After the threshold is crossed, arsenals grow. Then they peak and, in some contexts, decline.
+						In parallel, international frameworks for safety and control rise in response to escalating risk.
+					</p>
 				</div>
-				<div class="download download_small">
-					<div>
-						<a href="assets/dataviz/protocols/04" title="Download visualization protocol">
-							Read the visualization protocol
-						</a>
+
+				<div class="story-grid">
+					<div class="story-copy">
+						<h5>From growth to peak — and what “today” really means</h5>
+						<p>
+							Use the switcher to compare the long-run curve of arsenals with a current snapshot.
+						</p>
 					</div>
-					<div>
-						<a href="assets/dataviz/dataset+metadata.zip" title="Download dataset">
-							↓ Download the dataset (1MB)
-						</a>
+					<div class="story-viz">
+						<div class="viz-switcher" data-default="assets/pages/visualizations/rise-and-fall-of-nuclear-arsenals.html">
+							<div class="viz-toolbar">
+								<div class="viz-tabs" role="tablist" aria-label="Arsenals over time / Today">
+									<button class="viz-tab is-active" type="button"
+										data-src="assets/pages/visualizations/rise-and-fall-of-nuclear-arsenals.html"
+										data-protocol="assets/pages/protocols/protocol-rise-and-fall-of-nuclear-arsenals.html"
+										data-dataset="rise-and-fall-of-nuclear-arsenals"
+										data-caption="Rise and fall of global arsenals: the Cold War peak and what followed.">
+										Over time</button>
+									<button class="viz-tab" type="button"
+										data-src="assets/pages/visualizations/global_nuclear_arsenals_today.html"
+										data-protocol="assets/pages/protocols/protocol-global_nuclear_arsenals_today.html"
+										data-dataset="global_nuclear_arsenals_today"
+										data-caption="Global arsenals today: an up-to-date snapshot of stockpiles and concentration.">
+										Today</button>
+								</div>
+								<div class="viz-actions">
+									<a class="viz-action viz-protocol" href="assets/pages/protocols/protocol-rise-and-fall-of-nuclear-arsenals.html">Protocol</a>
+									<a class="viz-action viz-download" href="#" aria-disabled="true" data-dataset="rise-and-fall-of-nuclear-arsenals">Download dataset</a>
+								</div>
+							</div>
+							<iframe class="viz-iframe" src="assets/pages/visualizations/rise-and-fall-of-nuclear-arsenals.html" title="Arsenals" loading="lazy"></iframe>
+							<p class="viz-caption">Rise and fall of global arsenals: the Cold War peak and what followed.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="story-grid">
+					<div class="story-copy">
+						<h5>Safety: treaties as a response to risk</h5>
+						<p>
+							Treaties don’t erase the past, but they attempt to shape incentives and reduce escalation.
+						</p>
+					</div>
+					<div class="story-viz">
+						<figure class="viz-card">
+							<div class="viz-single-actions">
+								<a class="viz-action viz-protocol" href="assets/pages/protocols/protocol-the_rise_of_global_nuclear_safety.html">Protocol</a>
+								<a class="viz-action viz-download" href="#" aria-disabled="true" data-dataset="the_rise_of_global_nuclear_safety">Download dataset</a>
+							</div>
+							<iframe class="viz-iframe" src="assets/pages/visualizations/the_rise_of_global_nuclear_safety.html" title="The rise of global nuclear safety" loading="lazy"></iframe>
+							<figcaption>The rise of global nuclear safety: treaties and international commitments over time.</figcaption>
+						</figure>
+					</div>
+				</div>
+			</section>
+
+			<section class="story-section" id="part-3">
+				<div class="story-head">
+					<h4>Part 3 — The invisible footprint (Chernobyl)</h4>
+					<p class="lede">
+						A single accident can create an impact measured in decades. Here, radiation is the invisible footprint
+						across space, and displacement the visible social consequence.
+					</p>
+				</div>
+
+				<div class="story-grid">
+					<div class="story-copy">
+						<h5>Two ways to see the invisible</h5>
+						<p>
+							Switch between complementary maps: one emphasizes the accident’s footprint; the other complements it
+							with a different view of spread and intensity.
+						</p>
+					</div>
+					<div class="story-viz">
+						<div class="viz-switcher" data-default="assets/pages/visualizations/the-invisible-footprint-of-chernobyl.html">
+							<div class="viz-toolbar">
+								<div class="viz-tabs" role="tablist" aria-label="Chernobyl footprint maps">
+									<button class="viz-tab is-active" type="button"
+										data-src="assets/pages/visualizations/the-invisible-footprint-of-chernobyl.html"
+										data-protocol="assets/pages/protocols/protocol-the-invisible-footprint-of-chernobyl.html"
+										data-dataset="the-invisible-footprint-of-chernobyl"
+										data-caption="Mapping contamination patterns: a spatial view of the Chernobyl footprint.">
+										Footprint</button>
+									<button class="viz-tab" type="button"
+										data-src="assets/pages/visualizations/the-invisible-footprint.html"
+										data-protocol="assets/pages/protocols/protocol-the-invisible-footprint.html"
+										data-dataset="the-invisible-footprint"
+										data-caption="The invisible footprint: complementary view of contamination intensity and spread.">
+										Intensity</button>
+								</div>
+								<div class="viz-actions">
+									<a class="viz-action viz-protocol" href="assets/pages/protocols/protocol-the-invisible-footprint-of-chernobyl.html">Protocol</a>
+									<a class="viz-action viz-download" href="#" aria-disabled="true" data-dataset="the-invisible-footprint-of-chernobyl">Download dataset</a>
+								</div>
+							</div>
+							<iframe class="viz-iframe viz-tall" src="assets/pages/visualizations/the-invisible-footprint-of-chernobyl.html" title="Chernobyl footprint maps" loading="lazy"></iframe>
+							<p class="viz-caption">Mapping contamination patterns: a spatial view of the Chernobyl footprint.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="story-grid">
+					<div class="story-copy">
+						<h5>No safe distance</h5>
+						<p>
+							Distance alone cannot explain exposure. Terrain, wind, deposition, and sampling patterns matter.
+						</p>
+					</div>
+					<div class="story-viz">
+						<figure class="viz-card">
+							<div class="viz-single-actions">
+								<a class="viz-action viz-protocol" href="assets/pages/protocols/protocol-no-safe-distance-after-chernobyl.html">Protocol</a>
+								<a class="viz-action viz-download" href="#" aria-disabled="true" data-dataset="no-safe-distance-after-chernobyl">Download dataset</a>
+							</div>
+							<iframe class="viz-iframe" src="assets/pages/visualizations/no-safe-distance-after-chernobyl.html" title="No safe distance after Chernobyl" loading="lazy"></iframe>
+							<figcaption>No safe distance: contamination does not behave like a simple distance decay.</figcaption>
+						</figure>
+					</div>
+				</div>
+
+				<div class="story-grid">
+					<div class="story-copy">
+						<h5>Displacement as a measurable footprint</h5>
+						<p>
+							The invisible becomes visible in population change: evacuations, resettlement, and long-term demographic shifts.
+						</p>
+					</div>
+					<div class="story-viz">
+						<figure class="viz-card">
+							<div class="viz-single-actions">
+								<a class="viz-action viz-protocol" href="assets/pages/protocols/protocol-population-change-after-chernobyl.html">Protocol</a>
+								<a class="viz-action viz-download" href="#" aria-disabled="true" data-dataset="population-change-after-chernobyl">Download dataset</a>
+							</div>
+							<iframe class="viz-iframe" src="assets/pages/visualizations/population-change-after-chernobyl.html" title="Population change after Chernobyl" loading="lazy"></iframe>
+							<figcaption>Population change after Chernobyl: displacement and demographic shifts in affected regions.</figcaption>
+						</figure>
+					</div>
+				</div>
+			</section>
+
+			<section class="story-section" id="part-4">
+				<div class="story-head">
+					<h4>Part 4 — Civilian nuclear power</h4>
+					<p class="lede">
+						Finally, we shift from weapons and accidents to infrastructure: where reactors operate today,
+						where new plants are planned, and how the global fleet is distributed by status.
+					</p>
+				</div>
+
+				<div class="story-grid">
+					<div class="story-copy">
+						<h5>The global machine</h5>
+						<p>
+							Explore plants on the globe, then switch to the status breakdown. Same system, two lenses.
+						</p>
+					</div>
+					<div class="story-viz">
+						<div class="viz-switcher" data-default="assets/pages/visualizations/global-nuclear-power-tracker.html">
+							<div class="viz-toolbar">
+								<div class="viz-tabs" role="tablist" aria-label="Power tracker / Reactor status">
+									<button class="viz-tab is-active" type="button"
+										data-src="assets/pages/visualizations/global-nuclear-power-tracker.html"
+										data-protocol="assets/pages/protocols/protocol-global-nuclear-power-tracker.html"
+										data-dataset="global-nuclear-power-tracker"
+										data-openable="true"
+										data-caption="Global nuclear power tracker: an interactive overview of plants worldwide.">
+										Tracker</button>
+									<button class="viz-tab" type="button"
+										data-src="assets/pages/visualizations/global-nuclear-reactor-status.html"
+										data-protocol="assets/pages/protocols/protocol-global-nuclear-reactor-status.html"
+										data-dataset="global-nuclear-reactor-status"
+										data-openable="false"
+										data-caption="Global reactor status: operating, under construction, planned, shut down.">
+										Status</button>
+								</div>
+								<div class="viz-actions">
+									<a class="viz-action viz-protocol" href="assets/pages/protocols/protocol-global-nuclear-power-tracker.html">Protocol</a>
+									<a class="viz-action viz-download" href="#" aria-disabled="true" data-dataset="global-nuclear-power-tracker">Download dataset</a>
+									<button class="viz-action viz-fullscreen" type="button" aria-pressed="false" title="Open map">Open map</button>
+								</div>
+							</div>
+							<iframe class="viz-iframe viz-tall" src="assets/pages/visualizations/global-nuclear-power-tracker.html" title="Civilian nuclear power" loading="lazy"></iframe>
+							<p class="viz-caption">Global nuclear power tracker: an interactive overview of plants worldwide.</p>
+						</div>
 					</div>
 				</div>
 			</section>
@@ -242,6 +395,15 @@
 			</section>
 		</footer>
 	</main>
+	<div class="viz-overlay" hidden aria-hidden="true">
+		<div class="viz-overlay__panel" role="dialog" aria-modal="true" aria-label="Visualization">
+			<div class="viz-overlay__toolbar">
+				<p class="viz-overlay__title">Visualization</p>
+				<button class="viz-action viz-overlay__close" type="button">Back</button>
+			</div>
+			<iframe class="viz-overlay__iframe" title="Visualization" loading="lazy"></iframe>
+		</div>
+	</div>
 </body>
 
 </html>
